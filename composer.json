@@ -1,0 +1,14 @@
+{
+	"name": "eoneed/jungheinrich",
+	"authors": [{
+		"name": "eoneed",
+		"email": "a.klein@eoneed.org"
+	}],
+	"require": {
+		"symfony/config": "~3.1",
+		"symfony/console": "~3.1",
+		"symfony/process": "~3.1",
+		"symfony/validator": "~3.1",
+		"symfony/yaml": "~3.1"
+	}
+}
