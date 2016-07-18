@@ -1,17 +1,17 @@
 
 # Anwendung
 
-## Testing
+Testing
 
-   $ php phpunit.phar --bootstrap ./tests/bootstrap.php ./tests/
+    $ php phpunit.phar --bootstrap ./tests/bootstrap.php ./tests/
   
-## Debug command  
+Debug command  
    
-   $ php bin/run.php -v register AK123456 VE123456789014 2016-06-23T08:00:00+00:00 2016-06-23T12:00:00+00:00
+    $ php bin/run.php -v register AK123456 VE123456789014 2016-06-23T08:00:00+00:00 2016-06-23T12:00:00+00:00
 
-## Standard command
+Standard command
   
-   $ php bin/run.php register AK123456 VE123456789014 2016-06-23T08:00:00+00:00 2016-06-23T12:00:00+00:00
+    $ php bin/run.php register AK123456 VE123456789014 2016-06-23T08:00:00+00:00 2016-06-23T12:00:00+00:00
 
 ---------------------------------------------------------------------------------------------------
 
