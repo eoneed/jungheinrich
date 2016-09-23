@@ -11,5 +11,13 @@
             <arg line="phpunit.phar --bootstrap ./tests/bootstrap.php ./tests/" />
         </exec>
     </target>
+    
+    <target name="run-phpunit-4-8-9">
+        <echo message="Run PHPUnit"/>
+        
+        <exec executable="php" failonerror="true">
+            <arg line="phpunit-4.8.9.phar --bootstrap ./tests/bootstrap.php ./tests/" />
+        </exec>
+    </target>
 
 </project>
