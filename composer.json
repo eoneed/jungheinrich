@@ -9,7 +9,9 @@
 		"symfony/console": "~3.1",
 		"symfony/process": "~3.1",
 		"symfony/validator": "~3.1",
-		"symfony/yaml": "~3.1",
-		"phpunit": "4.*"
+		"symfony/yaml": "~3.1"
+	},
+	"require-dev": {
+		"phpunit": "4.8.*"
 	}
 }
