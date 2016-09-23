@@ -1,7 +1,7 @@
 <project name="org.eoneed.public.jungheinrich" default="default">
 
     <target name="default">
-        <antcall target="run-phpunit-5-4-6" />
+        <antcall target="run-phpunit" />
     </target>
     
     <target name="run-composer">
@@ -15,7 +15,7 @@
         </exec>
     </target>
     
-    <target name="run-phpunit-5-4-6">
+    <target name="run-phpunit">
         <echo message="Run PHPUnit"/>
         
         <antcall target="run-composer" />
@@ -24,13 +24,4 @@
         </exec>
     </target>
     
-    <target name="run-phpunit-4-8-9">
-        <echo message="Run PHPUnit"/>
-        
-        <antcall target="run-composer" />
-        <exec executable="php" failonerror="true">
-            <arg line="phpunit-4.8.9.phar --bootstrap ./tests/bootstrap.php ./tests/" />
-        </exec>
-    </target>
-
 </project>
