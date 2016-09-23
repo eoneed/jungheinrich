@@ -1,6 +1,6 @@
 # Builds
 
-[![Build Status](https://eon.blue/jenkins/job/jungheinrich/badge/icon)](https://eon.blue/jenkins/job/jungheinrich)
+[![Build Status](https://eon.blue/jenkins/job/jungheinrich/badge/icon?style=plastic)](https://eon.blue/jenkins/job/jungheinrich)
 
 # Anwendung
 
