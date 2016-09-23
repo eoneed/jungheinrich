@@ -10,6 +10,6 @@
 		"symfony/process": "~3.1",
 		"symfony/validator": "~3.1",
 		"symfony/yaml": "~3.1",
-		"phpunit": "4.8.*"
+		"phpunit": "4.*"
 	}
 }
