@@ -12,6 +12,6 @@
 		"symfony/yaml": "~3.1"
 	},
 	"require-dev": {
-		"phpunit": "4.8.*"
+		"phpunit/phpunit": "4.8.*"
 	}
 }
