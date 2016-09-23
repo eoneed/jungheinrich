@@ -4,9 +4,18 @@
         <antcall target="run-phpunit-5-4-6" />
     </target>
     
+    <target name="run-composer">
+        <echo message="Run Composer"/>
+        
+        <exec executable="php" failonerror="true">
+            <arg line="composer.phar update" />
+        </exec>
+    </target>
+    
     <target name="run-phpunit-5-4-6">
         <echo message="Run PHPUnit"/>
         
+        <antcall target="run-composer" />
         <exec executable="php" failonerror="true">
             <arg line="phpunit.phar --bootstrap ./tests/bootstrap.php ./tests/" />
         </exec>
@@ -15,6 +24,7 @@
     <target name="run-phpunit-4-8-9">
         <echo message="Run PHPUnit"/>
         
+        <antcall target="run-composer" />
         <exec executable="php" failonerror="true">
             <arg line="phpunit-4.8.9.phar --bootstrap ./tests/bootstrap.php ./tests/" />
         </exec>
