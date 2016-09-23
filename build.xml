@@ -1,0 +1,15 @@
+<project name="blue.eon.public.jungheinrich" default="default">
+
+    <target name="default">
+        <antcall target="run-phpunit" />
+    </target>
+    
+    <target name="run-phpunit">
+        <echo message="Run PHPUnit"/>
+        
+        <exec executable="php" failonerror="true">
+            <arg line="phpunit.phar --bootstrap ./tests/bootstrap.php ./tests/" />
+        </exec>
+    </target>
+
+</project>
