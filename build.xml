@@ -10,6 +10,9 @@
         <exec executable="php" failonerror="true">
             <arg line="composer.phar update" />
         </exec>
+        <exec executable="php" failonerror="true">
+            <arg line="composer.phar dump-autoload --optimize" />
+        </exec>
     </target>
     
     <target name="run-phpunit-5-4-6">
