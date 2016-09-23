@@ -1,10 +1,10 @@
 <project name="blue.eon.public.jungheinrich" default="default">
 
     <target name="default">
-        <antcall target="run-phpunit" />
+        <antcall target="run-phpunit-5-4-6" />
     </target>
     
-    <target name="run-phpunit">
+    <target name="run-phpunit-5-4-6">
         <echo message="Run PHPUnit"/>
         
         <exec executable="php" failonerror="true">
